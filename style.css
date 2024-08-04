@@ -1,0 +1,50 @@
+*{
+    font-family: "Platypi", serif;
+}
+
+
+body{
+    background-image: url(./Images/gold\ coast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.mybutton{
+    background: none;
+    border: none;
+    background: cornflowerblue;
+    color: rgb(3, 10, 73);
+    font-size: 1rem;
+    border-radius: 40px;
+
+}
+.mybutton:hover{
+background-color: rgb(10, 10, 75);
+color: cornflowerblue;
+}
+
+.mytittle{
+    font-size: 5rem;
+    color: rgb(5, 5, 54);
+    margin-bottom: 50px;
+    font-family: "Pacifico", cursive;
+}
+
+p{
+    font-size: 1rem;
+    color: rgb(24, 24, 26);
+}
+  
+.mytittlecard{
+
+font-size: 1.8rem;
+color: rgb(3, 10, 73);
+font-family: "Pacifico", cursive;
+}
+
+@media(max-width:876px){
+    .mytittle{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+}
